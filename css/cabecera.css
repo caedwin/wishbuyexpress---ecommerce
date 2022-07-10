@@ -1,0 +1,48 @@
+.cabecera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    margin: 0 9.25rem;
+}
+.cabecera__logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+div.buscador{
+    margin: 2rem;
+    display: flex;
+}
+input.buscador__texto{
+    width: 24.75rem;
+    background: var(--background-gris-claro);
+    color: var(--font-gris-oscuro);
+    border-radius: 1.25rem 0 0 1.25rem ;
+    padding: 0 1rem;
+}
+button.buscar__boton{
+    cursor: pointer;
+    background: var(--background-gris-claro);
+    border-radius: 0 1.25rem 1.25rem 0;
+}
+
+input.buscador__texto, button.buscar__boton{
+    height: 2.5rem;
+    border:none;
+    outline: 0;
+	box-sizing: border-box;
+	font-size: 1rem;
+    
+}
+.btn_login{
+    width: 11.375rem;
+    height: 3.188rem;
+    margin-top: 1.5rem;
+    border-color: var(--border-azul-claro);
+   color: var(--font-azul-claro);
+   cursor: pointer;
+}
+
+

@@ -1,0 +1,31 @@
+/* PALETAS DE COLORES  */
+:root{
+    /* colores de fondo  */
+    --background-gris-claro:  #F5F5F5;
+    --background-azul-claro:#2A7AE4;
+
+    /* colores de la fuente  */
+    --font-gris-oscuro: #A2A2A2;
+    --font-white:#ffffff;
+    --font-azul-claro:#2A7AE4;
+
+
+    /* botones  */
+
+    --border-azul-claro: #2A7AE4;
+    
+
+    /* Tipos de fuentes */
+
+  --relaway: "Relaway", sans-serif;
+  --open-sans: "Open Sans", sans-serif;
+
+}
+
+
+body{
+    font-size: 3rem;
+    color: var(--font-gris-oscuro);
+    font-family: var(--relaway);
+    
+}
