@@ -1,5 +1,4 @@
 footer{
-    
     text-align: center;
     height: 4rem;
     top:2rem
@@ -7,10 +6,23 @@ footer{
 .piePagina{
     background: var(--background-blanco);
     height: 3rem;
-}
-.piePagina{
     display: flex;
     justify-content: space-between;
     padding-top: 3rem;
     margin: 0 9.25rem;
+}
+@media screen and (max-width: 1023px) {
+    .piePagina{
+        margin: 0 2rem;
+    }
+}
+@media screen and (max-width: 1023px) {
+   
+    .piePagina{
+        display: flex;
+        flex-direction:column;
+        margin: 0 2rem;
+        padding-top: 1rem;
+
+    }
 }

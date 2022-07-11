@@ -1,31 +1,46 @@
-section.container__seccion{
-    padding: 5rem 0;
+section.container__seccion {
+  padding-top: 6rem;
 }
-
-section.container__seccion .container__titulo{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0 9.25rem;
-    color: var(--font-preto);
+section.container__seccion:nth-child(3){
+  padding-bottom: 4rem;
 }
-section.container__seccion .container__titulo h2{
-    font-size: 2rem;
-    font-weight: 700;
+section.container__seccion .container__titulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 9.25rem;
+  color: var(--font-preto);
+}
+section.container__seccion .container__titulo h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+section.container__seccion .container__titulo p {
+  font-size: 1rem;
+  margin: 0.5rem 0.5rem 0 0;
+}
+section.container__seccion .container__verTodo img {
+  width: 1rem;
+}
+section.container__seccion .container__verTodo {
+  display: flex;
+  margin-right: 1rem;
+}
+@media screen and (max-width: 1023px) {
+  section.container__seccion .container__titulo {
+    margin: 0 2rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  section.container__seccion {
+    padding: 2rem 0;
+  }
+  section.container__seccion .container__titulo {
+    margin: 1rem 1rem;
+  }
+  section.container__seccion .container__titulo h2 {
+    font-size: 1.375rem;
     
-}
+  }
 
-section.container__seccion .container__titulo p{
-    font-size: 1rem;
-    margin: 0.5rem 0.5rem 0 0;
-    
 }
-section.container__seccion .container__verTodo img{
-    width: 1rem;
-    
-}
-section.container__seccion .container__verTodo{
-    display: flex;
-    margin-right: 1rem;
-}
-
