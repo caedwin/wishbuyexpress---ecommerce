@@ -1,0 +1,61 @@
+
+
+div.contacto{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 9.25rem;
+    padding: 3rem 0;
+    height: 15rem;
+}
+.contacto__logo img{
+    width: 8rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+form label#contacto__titulo{
+    margin-bottom:0.5rem;
+}
+#contacto__titulo{
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--font-preto);
+}
+#nombre{
+    background: var(--background-blanco);
+}
+form input{
+    width: 35rem;
+    height: 2rem;
+    border:none;
+    margin-bottom: 1rem;
+}
+textarea, #nombre{
+    border: none;
+    font-family: var(--relaway);
+    font-size: 0.75rem;
+    resize: none;
+}
+button.boton__enviar{
+    width: 9rem;
+    height: 3.188rem;
+    background:var(--background-azul-claro);
+    color: var(--font-white);
+    border: none;
+    margin-top: 1rem;
+}
+nav ul li{
+    margin-top:  1rem;
+    cursor: pointer;
+}
+
+nav ul li:hover{
+  color:var(--font-preto);
+  border-bottom: 0.2rem;
+  border-color: var(--border-azul-claro);
+  border-style:solid;
+  
+  
+}

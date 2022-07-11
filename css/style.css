@@ -3,17 +3,22 @@
     /* colores de fondo  */
     --background-gris-claro:  #F5F5F5;
     --background-azul-claro:#2A7AE4;
+    --background-blanco:#ffffff;
+    --background-blanco-hueso:#F5F5F5;
 
     /* colores de la fuente  */
     --font-gris-oscuro: #A2A2A2;
     --font-white:#ffffff;
     --font-azul-claro:#2A7AE4;
+    --font-preto:#464646;
 
 
     /* botones  */
 
     --border-azul-claro: #2A7AE4;
     
+    /* borde inferior del menu*/
+    --border-azul-claro:#2A7AE4;
 
     /* Tipos de fuentes */
 
@@ -24,8 +29,13 @@
 
 
 body{
-    font-size: 3rem;
+    font-size: 1rem;
     color: var(--font-gris-oscuro);
     font-family: var(--relaway);
     
+    
 }
+main, section.container__contacto{
+  background-color: var(--background-blanco-hueso);
+}
+

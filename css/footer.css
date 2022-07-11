@@ -1,0 +1,16 @@
+footer{
+    
+    text-align: center;
+    height: 4rem;
+    top:2rem
+}
+.piePagina{
+    background: var(--background-blanco);
+    height: 3rem;
+}
+.piePagina{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+    margin: 0 9.25rem;
+}

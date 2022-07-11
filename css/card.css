@@ -1,0 +1,29 @@
+.contenedor__card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 9.25rem;
+}
+
+.contenedor__card .card{
+    width: 11rem;
+    height: 10.875rem;
+    margin: 1rem 1rem 0 0;
+  
+    
+}
+.contenedor__card .card h2.producto{
+    font-weight: 500;
+    font-size: 0.875rem;
+    padding-top: 0.5rem;
+}
+.contenedor__card .card h3.precio{
+    font-weight: 700;
+    line-height: 1.174rem;
+    padding: 0.5rem 0 0.5rem 0;
+    color: var(--font-preto);
+}
+.contenedor__card div.card a.ir__producto{
+    color: var(--font-azul-claro);
+   
+}
