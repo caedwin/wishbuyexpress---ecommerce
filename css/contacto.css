@@ -53,10 +53,6 @@ textarea,
 }
 button.boton__enviar {
   width: 9rem;
-  height: 3.188rem;
-  background: var(--background-azul-claro);
-  color: var(--font-white);
-  border: none;
   margin-top: 1rem;
 }
 nav ul li {

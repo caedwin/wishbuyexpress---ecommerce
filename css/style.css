@@ -43,6 +43,7 @@ main, section.container__contacto{
   background: var(--background-azul-claro);
   color: var(--font-white);
   border: none;
+  padding: 0 1.5rem;
   cursor: pointer;
   
 }
@@ -62,5 +63,15 @@ h2{
   font-size: 2rem;
   color: var(--font-preto);
   font-weight: bold;
+}
+.bonton__cabecera{
+  width: 11.375rem;
+  height: 3.188rem;
+  margin-top: 1.5rem;
+  background: transparent;
+  border-style: solid;
+  border-color: var(--border-azul-claro);
+  color: var(--font-azul-claro);
+  cursor: pointer;
 }
 
