@@ -1,0 +1,16 @@
+.card_control-interno{
+  position: absolute;
+
+  
+  
+
+}
+.card_control-interno img#cesto, img#lapiz{
+    padding: 0.3rem 0.5rem 0 0;
+    
+    
+}
+@media screen and (max-width: 1023px) {
+    
+  
+  }

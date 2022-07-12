@@ -1,0 +1,26 @@
+section.agregar-producto__contenedor {
+  display: flex;
+  flex-direction: column;
+  margin: 0 28.281rem;
+}
+
+div.nuevo-producto {
+  display: flex;
+  flex-direction: column;
+}
+.bonton__agregar-nuevo {
+  display: flex;
+  flex-direction: ;
+  margin-bottom: 5rem;
+}
+section.agregar-producto__contenedor h2.titulo {
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+#descripcion {
+  margin-bottom: 2rem;
+}
+
+#url-imagen:hover {
+  cursor: pointer;
+}

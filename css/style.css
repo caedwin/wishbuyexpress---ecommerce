@@ -38,4 +38,29 @@ body{
 main, section.container__contacto{
   background-color: var(--background-blanco-hueso);
 }
+.boton{
+  height: 3.188rem;
+  background: var(--background-azul-claro);
+  color: var(--font-white);
+  border: none;
+  cursor: pointer;
+  
+}
+input{
+  height: 2rem;
+  border: 0;
+  margin-bottom: 2rem;
+  padding-left: 0.5rem;
+}
+label{
+  font-size: 0.75rem;
+  background-color: var(--font-white);
+  color: var(--font-gris-oscuro);
+  padding: 0.5rem 0 0 0.5rem;
+}
+h2{
+  font-size: 2rem;
+  color: var(--font-preto);
+  font-weight: bold;
+}
 
