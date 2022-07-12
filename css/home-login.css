@@ -1,0 +1,57 @@
+section.login_contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 31.75rem;
+    padding: 2rem 0;
+}
+
+
+section.login_contenedor h2{
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--font-preto);
+}
+input#email, input#password{
+    height: 3.946rem;
+    border-radius: 0.25rem;
+    border: 0;
+    padding-left: 1rem;
+    margin-top: 1rem;
+
+}
+button.boton{
+    height: 3.875rem;
+    background-color: var(--background-azul-claro);
+    color: var(--font-white);
+    border: 0;
+    margin-top: 1rem;
+}
+@media screen and (max-width: 1439px) {
+    section.login_contenedor{
+        margin: 0 20.75rem;
+        padding: 2rem 0;
+    }
+    
+}
+@media screen and (max-width: 1023px) {
+    section.login_contenedor{
+        margin: 0 15.375rem;
+        padding: 2rem 0;
+    }
+    button.boton{
+        margin: 1rem 4rem;
+    }
+    
+}
+@media screen and (max-width: 767px) {
+    section.login_contenedor{
+        margin: 0 2.813rem;
+        padding: 2rem 0;
+    }
+    button.boton{
+        margin: 1rem 4rem;
+    }
+    
+}

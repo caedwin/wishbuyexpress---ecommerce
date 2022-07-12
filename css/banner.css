@@ -43,7 +43,7 @@ div.banner div.banner__imagen img {
     height: 11.5rem;
   }
   .banner__texto {
-    margin: 4.375rem 1rem;
+    margin: 4rem 1rem;
   }
   .banner__texto h2 {
     font-size: 1.625rem;
@@ -54,6 +54,6 @@ div.banner div.banner__imagen img {
   }
   .banner__promocional___boton {
     width: 7.375rem;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
   }
 }
