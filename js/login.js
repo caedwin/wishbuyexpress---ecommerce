@@ -47,4 +47,5 @@ passwordUser.addEventListener('focus', function(){
 })
 userName.addEventListener('focus', function(){
     passwordUser.value = '';
+    
 } )

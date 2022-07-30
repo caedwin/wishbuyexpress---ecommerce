@@ -2,7 +2,7 @@
 let botonLogin = document.getElementById('boton_login');
 
 botonLogin.addEventListener('click', function(){
-    window.location.href = "http://127.0.0.1:5501/paginas/home-login.html";
+    window.location.href = "./paginas/home-login.html";
 });
 
 let botonBannerPromo = document.getElementById('botonPromocional');
