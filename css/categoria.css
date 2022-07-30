@@ -1,4 +1,4 @@
-section.login_contenedor{
+section.categoria_contenedor{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,42 +7,19 @@ section.login_contenedor{
     padding: 2rem 0;
 }
 
-#accesoDenegado{
-    color: var(--font-red);
-    text-align:left;
-    font-size: 0.875rem;
-}
-#validacion{
-    width: 1.25rem;
-    height: 1.25rem;
-    margin-left: 1rem;
-    justify-content: center;
-    border-image: none;
-}
 
-.username__email{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-between;
-    
-}
-#email{
-    width: 100%;
-}
-
-
-section.login_contenedor h2{
+section.categoria_contenedor h2{
     font-size: 1.125rem;
     font-weight: 700;
     color: var(--font-preto);
 }
-input#email, input#password{
+input#categoria, #numberId{
     height: 3.946rem;
     border-radius: 0.25rem;
     border: 0;
     padding-left: 1rem;
     margin-top: 1rem;
+    text-transform: capitalize;
 
 }
 button.boton{

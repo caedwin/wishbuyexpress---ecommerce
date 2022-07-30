@@ -1,8 +1,7 @@
 .container__contacto {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 2rem;
-  padding-top: 2rem;
+  padding:6rem 0 2rem 0;
 }
 
 .contacto {
@@ -71,6 +70,7 @@ input::backdrop {
 @media screen and (max-width: 1023px) {
   .container__contacto {
     flex-direction: row;
+   
   }
   .contacto {
     display: flex;

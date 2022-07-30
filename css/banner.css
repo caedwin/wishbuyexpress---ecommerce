@@ -9,14 +9,13 @@ div.banner div.banner__imagen img {
   font-weight: 700;
   margin: 9.375rem 9.25rem;
 }
-.banner__texto h2 {
+.banner__texto h1 {
   font-size: 3.25rem;
-  text-shadow: black 0.1em 0.1em 0.2em;
+  text-shadow: black 0.1em 0.1em 0.5em;
 }
 .banner__texto p {
   font-size: 1.375rem;
-  box-shadow: 5px 5px 40px;
-  text-shadow: black 0.1em 0.1em 0.2em;
+  text-shadow: black 0.1em 0.1em 0.5em;
   margin-top: 1rem;
 }
 .banner__promocional___boton {
@@ -26,6 +25,9 @@ div.banner div.banner__imagen img {
   color: var(--font-white);
   border: 0;
   margin-top: 1rem;
+}
+#botonPromocional{
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1023px) {

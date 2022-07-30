@@ -13,6 +13,10 @@
         <link rel="stylesheet" href="../css/contacto.css">
         <link rel="stylesheet" href="../css/nuevo-producto.css">
 
+
+
+
+
         <link rel="stylesheet" href="../css/footer.css">
     </head>
     <body>
@@ -23,7 +27,7 @@
                 </div>
                 <div class="cabecera__contenedor">
                     <div class="buscador">
-                        <input type="search" class="buscador__texto" placeholder="¿Qué deseas buscar?">
+                        <input type="text" class="buscador__texto" placeholder="¿Qué deseas buscar?">
                         <button class="buscar__boton"><img src="../imagenes/lupa-buscar.svg"></button>
                     </div>
                     <div class="btn_menu-admin">
@@ -35,45 +39,24 @@
         </header>
         <main>
             <section class="agregar-producto__contenedor">
-                <h2 class="titulo">Agregar nuevo producto</h2>
+               
+                <h2 class="titulo">Modificar producto</h2>
                 <div class="nuevo-producto">
-                    <div class="nuevo-producto__container">
-                        <div class="nuevo-producto__contenido" >
-                            <div class="nuevoProducto__cargarImagen">
-                                <input id="file" type="file" accept="png, jpj, jpje" multiple class="nuevoProducto__imagenFile"name="file[]"> 
-                            </div>
-                            <div class="nuevo-producto__iconImagen">
-                                <img src="../imagenes/picture-free-icon-font.png" alt="" class="nuevo-producto__icon">
-                                <p class="nuevo-producto__iconImagen___texto">Agrega o arrastra tu foto del producto aquí</p>
-                            </div>
-                        </div>
-                        <div id="preview-images">
-                        </div>
-                        <lebel class="error"></lebel>
-                    </div>
+                    <label class="nuevo-producto__titulo">URL de imagen</label>
+                    <input type="text" id="url-imagen">
                     <label class="nuevo-producto__titulo">Categoría</label>
-                    <form action="" method="post" class="nuevo-producto__categoria" data-form-categoria>
-                        <input type="text" list="items" />
-                        <datalist id="items" data-option-category>
-                            <option value="Star Wars" id="starWars" selected>Star Wars</option>
-                            <option value="Consola" id="consola">Consola</option>
-                            <option value="Diversos" id="diversos">Diversos</option>
-                        </datalist>
-                    </form> 
+                    <input type="text" id="categoria">
                     <label class="nuevo-producto__titulo">Nombre del producto</label>
-                    <input type="text" id="nombreProducto" data-name-product>
-                    <label class="nuevo-producto__titulo">Precio del producto</label>
-                    <input type="number" id="precio" data-cost-product>
+                    <input type="text" id="nombreProducto">
+                    <label class="nuevo-producto__titulo">Categoría</label>
+                    <input type="text" id="precio">
                     <label class="nuevo-producto__titulo">Descripción</label>
-                    <textarea id="descripcion" data-descrpt-product></textarea>
+                    <textarea id="descripcion"></textarea>
                 </div>
                 <div class="bonton__agregar-nuevo">
-                    <button class="boton" id="btn_agregar_producto" data-form-btn>Agregar Producto</button>
-                    <button class="boton" id="btn_addCategoria">Nueva Categoría</button>
+                    <button class="boton">Guardar Cambios</button>
                 </div>
-                <h3 id="success"></h3>
                 
-
             </section>
             
         </main>
@@ -100,14 +83,13 @@
                     <h3 id="contacto__titulo">Hable con nosotros</h3>
                     <label for="text-contacto" id="nombre">Nombre</label>
                     <input id="text-contacto" type="text" name="user_name" required>
-                    <textarea cols="70" rows="5" id="msg" name="user_msg" placeholder="Escribe tu mensaje" required></textarea> 
+                    <textarea cols="70" rows="5" id="msg" name="user_msg" placeholder="Escribe tu mensaje" required ></textarea> 
                     <button type="submit" class="boton__enviar boton">Enviar mensaje</button>
                 </form>
             </div> 
         </section>
     </body>
-    <script type="module" src="../js/agregar-nuevo.js"></script>
-    <script type="module" src="../js/component/addCategoria.js"></script>
+    <script src="../js/modificar-producto.js"></script>
     <footer>
         <div class="piePagina">
             <p>Realizado por Edwin Camacho</p>

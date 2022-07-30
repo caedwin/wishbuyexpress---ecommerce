@@ -1,16 +1,126 @@
-.card_control-interno{
+.card_control-interno {
   position: absolute;
-
-  
-  
+  margin-left: 8rem;
+}
+.control_agregarPedido{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding-top: 4rem;
 
 }
-.card_control-interno img#cesto, img#lapiz{
-    padding: 0.3rem 0.5rem 0 0;
-    
-    
+.container__nuevoProducto{
+  margin-right: 10rem;
+  align-items: center;
+  display: flex;
+
 }
-@media screen and (max-width: 1023px) {
-    
+.card_control-interno img#cesto,
+img#lapiz {
+  padding: 0.3rem 0.5rem 0 0;
+  float: inline-end;
+
+}
+
+.seccionProducto_1, .seccionProducto_2, .seccionProducto_3{
+  padding-bottom: 5rem;
+}
+.textoLink-nuevoProducto{
+  color: var(--font-preto);
+}
+.img-addProducto{
+  margin: 0 0.5rem;
+}
+.eliminar-producto {
+  background: rgba(33, 41, 52, .85);
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  display: flex;
+  position: fixed;
+  z-index: 999;
+}
+.eliminar-producto .content {
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 600px;
+  min-width: 320px !important;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding: 2rem;
+  font-size: 1.3rem;
+}
+.btn_logout{
+  color: var(--font-azul-claro);
+}
+.btn_control{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.sumit-button, .close-button{
+  height: 1.3rem;
+  padding: 1rem;
+}
+.cesto{
+  cursor: pointer;
+}
+.link__logout{
+  margin: 2.5rem 2rem 0 0;
+}
+
+@media screen and (max-width: 1400px){
+  .card_control-interno {
+   margin-left: 7rem;
   
   }
+  
+}
+@media screen and (max-width: 1024px){
+  .card_control-interno {
+   margin-left: 4rem;
+  
+  }
+  
+}
+@media screen and (max-width: 768px){
+  .card_control-interno {
+   margin-left: 2rem;
+  
+  }
+  .container__nuevoProducto{
+    margin-right: 3rem;
+  }
+  .container__titulo h2{
+    font-size: 1.325rem;
+  }
+  
+}
+
+@media screen and (max-width: 600px){
+  .card_control-interno {
+   margin-left: 7rem;
+  
+  }
+  .container__nuevoProducto{
+    margin: 0;
+    height: 1rem;
+    padding-right: 0rem;
+    font-size: 1rem;
+  }
+  .control_agregarPedido{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 0rem;
+  
+  }
+}

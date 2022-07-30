@@ -7,7 +7,7 @@
 .contenedor__card .card {
   width: 11rem;
   height: 10.875rem;
-  margin: 1rem 1rem 0 0;
+  margin: 1rem 1rem 0rem 0;
 }
 .contenedor__card .card h2.producto {
   font-weight: 500;
@@ -34,11 +34,14 @@
 }
 @media screen and (max-width: 600px) {
   .contenedor__card {
-    margin: 0 1rem;
+    margin: 0 0.9rem;
+    flex-wrap: wrap;
+    margin: 1rem 0 0rem 0;
   }
-  .card:nth-last-child(6), .card:nth-last-child(5),  
-  .card:nth-last-child(4), .card:nth-last-child(3) {
-    display: none;
+  .contenedor__card .card {
+    width: 9.5rem;
+    height: 10.875rem;
+    margin: 1rem 1rem 3rem 0;
   }
 
 }

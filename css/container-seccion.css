@@ -1,4 +1,7 @@
-section.container__seccion {
+section.container_1 {
+  padding-top: 4rem;
+}
+section.container_2,.container_3{
   padding-top: 6rem;
 }
 section.container__seccion:nth-child(3){
@@ -43,4 +46,9 @@ section.container__seccion .container__verTodo {
     
   }
 
+}
+@media screen and (max-width: 600px){
+  section.container__seccion .container__titulo {
+    margin: 1rem 0rem;
+  }
 }

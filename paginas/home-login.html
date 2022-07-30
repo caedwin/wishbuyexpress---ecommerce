@@ -18,7 +18,7 @@
         <header>
             <section class="cabecera">
                 <div class="logo">
-                    <img class="img-logo" src="../imagenes/logo-wish.png" width="150">
+                    <a href="../index.html"><img class="img-logo" src="../imagenes/logo-wish.png" width="150"></a>
                 </div>
                 <div class="cabecera__contenedor">
                     <div class="buscador">
@@ -32,9 +32,13 @@
         <main>
             <section class="login_contenedor">
                 <h2 class="titulo">Iniciar Sesión</h2>
-                <input id="email" type="email" placeholder="Escriba su correo electrónico">
-                <input id="password" type="password" placeholder="Escriba su contraseña">
-                <button class="boton" type="submit">Entrar</button>
+                <div class="username__email">
+                    <input id="email" type="email" name="username" placeholder="Escriba su correo electrónico" required>
+                    <img id="validacion" style="visibility: hidden;"></img>
+                </div>
+                <input id="password" type="password" name='password' placeholder="Escriba su contraseña" required>
+                <samp id="accesoDenegado"></samp>
+                <button class="boton" type="submit" id="boton__registraUsuario">Entrar</button>
             </section>
         </main>
         <section class="container__contacto">
@@ -57,16 +61,16 @@
             </div>
             <div class="form__contacto">
                 <form action="" method="post">
-                    <label id="contacto__titulo">Hable con nosotros</label>
+                    <h3 id="contacto__titulo">Hable con nosotros</h3>
                     <label for="text-contacto" id="nombre">Nombre</label>
                     <input id="text-contacto" type="text" name="user_name" required>
-                    <textarea cols="70" rows="5" id="msg" name="user_msg" placeholder="Escribe tu mensaje" ></textarea> 
-                    <button type="submit" class="boton__enviar">Enviar mensaje</button>
+                    <textarea cols="70" rows="5" id="msg" name="user_msg" placeholder="Escribe tu mensaje" required></textarea> 
+                    <button type="submit" class="boton__enviar boton">Enviar mensaje</button>
                 </form>
             </div> 
         </section>
     </body>
-    <script src="../js/index.js"></script>
+    <script src="../js/login.js"></script>
     <footer>
         <div class="piePagina">
             <p>Realizado por Edwin Camacho</p>

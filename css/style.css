@@ -5,12 +5,15 @@
     --background-azul-claro:#2A7AE4;
     --background-blanco:#ffffff;
     --background-blanco-hueso:#F5F5F5;
+    --background-gris-oscuro: #e5e5e5;
+    --background-negro-mate:#000000;
 
     /* colores de la fuente  */
     --font-gris-oscuro: #A2A2A2;
     --font-white:#ffffff;
     --font-azul-claro:#2A7AE4;
     --font-preto:#464646;
+    --font-red:#fe0000;
 
 
     /* botones  */
@@ -19,6 +22,7 @@
     
     /* borde inferior del menu*/
     --border-azul-claro:#2A7AE4;
+    --border-gris-oscuro: #A2A2A2;
 
     /* Tipos de fuentes */
 
@@ -59,10 +63,23 @@ label{
   color: var(--font-gris-oscuro);
   padding: 0.5rem 0 0 0.5rem;
 }
+h3 {
+  font-size: 1rem;
+  color: var(--font-preto);
+  font-weight: bold;
+  margin: 0 0 0.5rem 0;
+}
 h2{
   font-size: 2rem;
   color: var(--font-preto);
   font-weight: bold;
+}
+h1{
+  font-size: 2rem;
+  color: var(--font-white);
+  font-weight: bold;
+  
+  
 }
 .bonton__cabecera{
   width: 11.375rem;
