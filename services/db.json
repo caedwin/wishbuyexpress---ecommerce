@@ -1,0 +1,22 @@
+{
+  "perfil": [
+    {
+      "nombre": "Edwin Camacho",
+      "email": "edwin.a.camacho@gmail.com",
+      "password":1234, 
+      "id": 1
+    }
+  ]
+  
+}
+{
+  "cliente":[
+    {
+      "nombre":,
+      "email":,
+      "password":,
+      "id":
+    }
+    
+  ]
+}

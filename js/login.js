@@ -30,10 +30,10 @@ userName.addEventListener('blur', function() {
         valido = document.getElementById('validacion');
         
         emailRegex = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
-        //Se muestra un texto a modo de ejemplo, luego va a ser un icono
+       
         if (emailRegex.test(campo.value)) {
             validacion.style.visibility = 'visible';
-            validacion.src = '../imagenes/checkboxAccept .png';
+            validacion.src = '../imagenes/checkboxAccept.png';
         } else {
             validacion.style.visibility = 'visible';
             validacion.src = '../imagenes/accessDenegado.png';

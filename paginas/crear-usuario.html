@@ -12,11 +12,11 @@
         <link rel="stylesheet" href="../css/cabecera.css">
         <link rel="stylesheet" href="../css/contacto.css">
         <link rel="stylesheet" href="../css/footer.css">
-        <link rel="stylesheet" href="../css/home-login.css">
+        <link rel="stylesheet" href="../css/crear-usuario.css">
     </head>
     <body>
         <header>
-            <section class="cabecera">
+            <form class="cabecera">
                 <div class="logo">
                     <a href="../index.html"><img class="img-logo" src="../imagenes/logo-wish.png" width="150"></a>
                 </div>
@@ -25,24 +25,43 @@
                         <input type="text" class="buscador__texto" placeholder="¿Qué deseas buscar?">
                         <button class="buscar__boton"><img src="../imagenes/lupa-buscar.svg"></button>
                     </div>
-                    <div class="registrar">
-                        <a href="../paginas/crear-usuario.html" class="registrarse">Regístrate</a>
-                    </div>
+                </div> 
+                <div class="registrar">
+                    <a href="../paginas/home-login.html" class="registrarse">Retornar</a>
                 </div>
-
-               
             </section>
         </header>
         <main>
-            <form class="login_contenedor">
-                <h2 class="titulo">Iniciar Sesión</h2>
-                <div class="username__email">
-                    <input id="email" type="email" autocomplete="email" name="email" placeholder="Escriba su correo electrónico" required>
-                    <img id="validacion" style="visibility: hidden;"></img>
+            <form >
+                <div class="crearUsuario__contenedor">
+                    <h2 class="titulo tituloEncabezado">Crear Usuario</h2>
+                
+                    <div class="nombreApellido__username"> 
+                        <input id="username" title="Nombre" autocomplete="given-name" type="text" name='username' placeholder="Escriba su nombre" required>
+                        <input id="lastname" title="Apellido" type="text" autocomplete="family-name" name='lastname' placeholder="Escriba su apellido" required>
+                    </div>
+                    
+                    <div class="username__email">
+                        <input id="email" type="email" name="username" placeholder="Escriba su correo electrónico" required>
+                        <img id="validacion_email" style="visibility: hidden;"></img>
+                    </div>
+                    <div class="verPassword1">
+                        <input id="password1" type="password" autocomplete="new-password" name='password1' placeholder="Escriba su contraseña" required>
+                        <button class="btnOjoPassword" id="ojopassword" type="button"></button>
+                        <img id="validacion_password1" style="visibility: hidden;"></img>
+                        
+                    </div>
+                    <div class="verPassword1">
+                        <input id="password2" type="password" name='password2' placeholder="Repita su contraseña" required>
+                        <img id="validacion_password2" style="visibility: hidden;"></img>
+                    </div>
+                    
+                    
+                    <samp id="accesoDenegado"></samp>
+                    <button class="boton" type="submit" id="boton__registraUsuario">Regístarse</button>
+
                 </div>
-                <input id="password" type="password" name='password' placeholder="Escriba su contraseña" required>
-                <samp id="accesoDenegado"></samp>
-                <button class="boton" type="submit" id="boton__registraUsuario">Entrar</button>
+                
             </form>
         </main>
         <section class="container__contacto">
@@ -74,7 +93,7 @@
             </div> 
         </section>
     </body>
-    <script src="../js/login.js"></script>
+    <script src="../js/addClientes.js"></script>
     <footer>
         <div class="piePagina">
             <p>Realizado por Edwin Camacho</p>

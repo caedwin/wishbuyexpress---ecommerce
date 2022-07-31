@@ -1,10 +1,20 @@
-section.login_contenedor{
+form.login_contenedor{
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin: 0 31.75rem;
+    margin: 0 22.75rem;
     padding: 2rem 0;
+}
+
+.registrarse{
+    color: var(--font-azul-claro);
+}
+.registrar{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 2rem;
 }
 
 #accesoDenegado{
@@ -20,6 +30,7 @@ section.login_contenedor{
     border-image: none;
 }
 
+
 .username__email{
     display: flex;
     align-items: center;
@@ -27,10 +38,6 @@ section.login_contenedor{
     justify-content: space-between;
     
 }
-#email{
-    width: 100%;
-}
-
 
 section.login_contenedor h2{
     font-size: 1.125rem;
@@ -38,14 +45,19 @@ section.login_contenedor h2{
     color: var(--font-preto);
 }
 input#email, input#password{
+    width: 100%;
     height: 3.946rem;
     border-radius: 0.25rem;
     border: 0;
     padding-left: 1rem;
     margin-top: 1rem;
-
 }
+input#password{
+    width: 89%;
+}
+
 button.boton{
+    width: 92%;
     height: 3.875rem;
     background-color: var(--background-azul-claro);
     color: var(--font-white);
